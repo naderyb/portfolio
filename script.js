@@ -14,7 +14,7 @@ document.getElementById('languageToggle').addEventListener('click', function () 
             webDev: "Web Development",
             programming: "Programming",
             projectsTitle: "Projects",
-            project1Title: "IfagVault",
+            project1Title: "nrivizi",
             project1Desc: "A dynamic web platform designed for university students to access various resources and services. The site features a sleek, modern design with a focus on user authentication, responsive design, and intuitive navigation.",
             project2Title: "C Programs",
             project2Desc1: "Restaurant Management System: A C program for managing table reservations in a restaurant.",
@@ -43,7 +43,7 @@ document.getElementById('languageToggle').addEventListener('click', function () 
             webDev: "Développement Web",
             programming: "Programmation",
             projectsTitle: "Projets",
-            project1Title: "IfagVault",
+            project1Title: "nrivizi",
             project1Desc: "Une plateforme web dynamique conçue pour les étudiants universitaires afin d'accéder à diverses ressources et services. Le site propose un design moderne et épuré avec une attention particulière à l'authentification des utilisateurs, au design réactif et à la navigation intuitive.",
             project2Title: "Programmes en C",
             project2Desc1: "Système de Gestion de Restaurant : Un programme en C pour gérer les réservations de tables dans un restaurant.",
@@ -92,8 +92,8 @@ document.getElementById('languageToggle').addEventListener('click', function () 
 
     const project2Items = document.querySelectorAll('.project-item:nth-child(2) ul li');
     project2Items[0].innerHTML = `${translations[currentLanguage].project2Desc1}  <br> <a href="https://github.com/naderyb/projects/blob/main/restaurant.c" target="_blank">${translations[currentLanguage].viewCode}</a>`;
-    project2Items[1].innerHTML = `${translations[currentLanguage].project2Desc2} <a href="https://github.com/naderyb/projects/blob/main/gestionnaire_de_transaction_fr.c" target="_blank">${translations[currentLanguage].viewCode}</a>`;
-    project2Items[2].innerHTML = `${translations[currentLanguage].project2Desc3} <a href="https://github.com/naderyb/projects/blob/main/school_management_system.c" target="_blank">${translations[currentLanguage].viewCode}</a>`;
+    project2Items[1].innerHTML = `${translations[currentLanguage].project2Desc2} <br> </b><a href="https://github.com/naderyb/projects/blob/main/gestionnaire_de_transaction_fr.c" target="_blank">${translations[currentLanguage].viewCode}</a>`;
+    project2Items[2].innerHTML = `${translations[currentLanguage].project2Desc3} <br> <a href="https://github.com/naderyb/projects/blob/main/school_management_system.c" target="_blank">${translations[currentLanguage].viewCode}</a>`;
 
     document.querySelector('.project-item:nth-child(3) h3').textContent = translations[currentLanguage].project3Title;
     document.querySelector('.project-item:nth-child(3) p').innerHTML = `${translations[currentLanguage].project3Desc} <br> <a href="https://github.com/naderyb/projects/blob/main/couleur_terminal.pas" target="_blank">${translations[currentLanguage].viewCode}</a>`;
