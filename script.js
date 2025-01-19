@@ -24,7 +24,7 @@ document.getElementById('languageToggle').addEventListener('click', function () 
             project3Desc: "This program changes the background color of the terminal to black. It uses the TextBackground function from the Wincrt unit to set the color and then clears the screen to apply the change. The text color is set to white for better readability against the black background.",
             contactTitle: "Contact",
             contactText: "Ready to slay the tech game? Hit me up if you wanna collaborate or chat about tech trends.",
-            footerText: "&copy; 2024 Youb Nader. All rights reserved.",
+            footerText: "&copy; 2025 Youb Nader. All rights reserved.",
             viewCode: "View Code",
             viewProject: "View Project",
             getInTouch: "Get In Touch"
@@ -53,7 +53,7 @@ document.getElementById('languageToggle').addEventListener('click', function () 
             project3Desc: "Ce programme change la couleur de fond du terminal en noir. Il utilise la fonction TextBackground de l'unité Wincrt pour définir la couleur, puis il efface l'écran pour appliquer le changement. La couleur du texte est réglée sur blanc pour une meilleure lisibilité contre le fond noir.",
             contactTitle: "Contact",
             contactText: "Prêt à dominer le monde de la tech ? Contactez-moi si vous voulez collaborer ou discuter des dernières tendances technologiques.",
-            footerText: "&copy; 2024 Youb Nader. Tous droits réservés.",
+            footerText: "&copy; 2025 Youb Nader. Tous droits réservés.",
             viewCode: "Voir le Code",
             viewProject: "Voir le Projet",
             getInTouch: "Contactez-moi"
